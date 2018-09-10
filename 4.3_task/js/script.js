@@ -14,22 +14,7 @@ let computer = Math.floor(Math.random() * 3);
 (computer == 0 && player == 2) ? console.log('player win') : 
 (computer == 1 && player == 2) ? console.log('computer win'):
  console.log('None win');
-/*console.log('computer win') : (computer == 0 && player  == 1) ? 
 
-if (player == 0 && computer == 1) 
-	{console.log('player win');}
-else if (player == 0 && computer == 2) 
-	{console.log('computer win');}
-else if (player == 1 && computer == 2) 
-	{console.log('player win');}
-else if (computer == 0 && player  == 1) 
-	{console.log('computer win');}
-else if (computer == 0 && player  == 2) 
-	{console.log('player win');}
-else if (computer == 1 && player == 2) 
-	{console.log('computer win');}
-else if (computer == player)
-     {console.log('None win');} */ 
 
 
 // опишем все условия и будем выводить в консоль 'computer win' или 'player win'
