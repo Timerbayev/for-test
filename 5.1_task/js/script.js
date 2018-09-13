@@ -6,5 +6,5 @@ num = parseInt(num);
  	// body...
  }
 
- for (i = 0; i <=100; i = i + 1)  {
- 	console.log(RandomPower(num));}
+ 
+ 	console.log(RandomPower(num))
