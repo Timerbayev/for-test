@@ -6,9 +6,9 @@ class Person {
 	hasCat() {  return ++this.happiness; }
 	hasRest() {  return ++this.happiness; }
 	hasMoney() { return ++this.happiness;}
-	isSunny() { return ++this.happiness;}
-	/*let city ='Moscow';
-	let APIKey = '';
+	isSunny() { 
+	let city ='Moscow';
+	let APIKey = 'bd5e378503939ddaee76f12ad7a97608';
 	const url = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+APIKey;
     let xhr = new XMLHttpRequest;
 	xhr.open('GET',url,false);
@@ -20,7 +20,7 @@ class Person {
 	}
 
 
-	}*/
+	}
 }
 let person = new Person();
 const button = document.querySelectorAll("input");
@@ -36,7 +36,7 @@ button[7].onclick = function(e){e.preventDefault();
  (person.happiness >= 4)? icon[0].innerHTML = '😁':
  (person.happiness == 3 || person.happiness == 2 )? icon[0].innerHTML = '😐':
  (person.happiness <= 1)?icon[0].innerHTML = '☹️':icon[0].innerHTML = undefined;
- console.log(person.happiness);}
+ }
   
  
 
